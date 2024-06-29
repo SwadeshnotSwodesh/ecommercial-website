@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background: url(../photos/bg.jpg) repeat-x #bfbfbf;
+}
+.page {
+  margin: auto;
+  width: 940px;
+  background: #fff;
+}
+.logo {
+  float: left;
+}
+.topright {
+  float: right;
+  text-align: right;
+  color: #386a8d;
+  padding: 7px 17px;
+  font-size: 15px;
+}
+.topright p a {
+  text-decoration: none;
+  color: #386a8d;
+}
+.topright p a:hover {
+  text-decoration: underline;
+  color: red;
+}
+header {
+  border-bottom: 13px solid #d7d7d7;
+}
+nav {
+  float: right;
+  margin: -3px -17px;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  float: left;
+}
+nav ul li a {
+  text-decoration: none;
+  padding: 7px 13px;
+  border-right: 1px solid #fff;
+  color: #fff;
+  background: #044470;
+}
+.active a,
+nav ul li a:hover {
+  color: red;
+  background: #d7d7d7;
+}
+.clearfix {
+  clear: both;
+}
+.content {
+  padding: 20px;
+}
+.cleft {
+  font-size: 12px;
+  width: 70%;
+  float: left;
+  padding-right: 30px;
+  border-right: 1px dotted #000;
+}
+.cleft h2,
+.cright h2 {
+  color: blue;
+  text-shadow: 1px 1px 1px #bfbfbf;
+}
+.cleft p ul {
+  list-style: none;
+}
+.cright {
+  width: 25%;
+  float: right;
+  font-size: 13px;
+  border-left: -20px;
+}
+.cright ul {
+  list-style: none;
+}
+.cright ul {
+  text-decoration: none;
+}
+.cright ul a {
+  color: #044470;
+}
+.cright ul li a:hover {
+  text-decoration: underline;
+  color: red;
+}
+footer {
+  color: #fff;
+  background: #064570;
+  font-size: 11px;
+  padding: 7px 13px;
+}
+.fleft {
+  float: left;
+}
+.fright {
+  float: right;
+}
